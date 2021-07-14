@@ -5,9 +5,9 @@ Console.WriteLine("Informe um número para que o fatorial seja calculado: ");
 int numFatorial = Convert.ToInt32(Console.ReadLine());
 int multiplicador = numFatorial;
 int resultado = numFatorial;
-while(multiplicador > 1)
+while (multiplicador > 1)
 {
-    resultado *= --multiplicador;
+  resultado *= --multiplicador;
 }
 
 Console.WriteLine($"O fatorial de {numFatorial} é: {resultado}");
@@ -21,10 +21,6 @@ int[] valores = new int[tamanho];
 
 for (int i = 0; i < tamanho; i++)
 {
-    Console.WriteLine($"Adicione o {i + 1}º valor");
-    valores[i] = Convert.ToInt32(Console.ReadLine());
+  Console.WriteLine($"Adicione o {i + 1}º valor");
+  valores[i] = Convert.ToInt32(Console.ReadLine());
 }
-
-
-
-
