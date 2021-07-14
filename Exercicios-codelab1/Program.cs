@@ -22,38 +22,38 @@ Console.WriteLine($"O fatorial de {numero} é {fatorial}.");
 
 
 
-// 2. Algoritmo para encontrar o maior valor de uma lista de números 
-//    com tamanho e valores definidos por usuário.
-//Console.WriteLine("Quantos valores você deseja adiconar à lista? ");
-//int quant = Convert.ToInt32(Console.ReadLine());
-//int[] values = new int[quant];
+//2. Algoritmo para encontrar o maior valor de uma lista de números 
+//com tamanho e valores definidos por usuário.
+Console.WriteLine("Quantos valores você deseja adiconar à lista? ");
+int quant = Convert.ToInt32(Console.ReadLine());
+int[] values = new int[quant];
 
-//for (int i = 0; i < quant; i++)
-//{
-//    Console.WriteLine($"Adicione o {i + 1}º valor: ");
-//    values[i] = Convert.ToInt32(Console.ReadLine());
-//}
+for (int i = 0; i < quant; i++)
+{
+  Console.WriteLine($"Adicione o {i + 1}º valor: ");
+  values[i] = Convert.ToInt32(Console.ReadLine());
+}
 
-//int n = values.Max();
-//Console.WriteLine($"O maior valor digitado é {n:0.00}.");
+int n = values.Max();
+Console.WriteLine($"O maior valor digitado é {n:0.00}.");
 
-//Console.WriteLine("[{0}]", string.Join(", ", values));
+Console.WriteLine("[{0}]", string.Join(", ", values));
 
 
-//Console.WriteLine("Quantos numeros você pretende adicionar: ");
-//string entradaTamanho = Console.ReadLine();
-//int tamanho = Int32.Parse(entradaTamanho);
-//Console.WriteLine("Digite os valores que deseja adicionar: ");
-//int contador = 0;
-//List<int> valores = new List<int> { };
-//while (contador <= tamanho)
-//{
-//    string entradaValores = Console.ReadLine();
-//    int valor = Int32.Parse(entradaValores);
-//    valores.Add(valor);
-//    contador += 1;
-//}
-//Console.WriteLine("[{0}]", string.Join(", ", valores));
+Console.WriteLine("Quantos numeros você pretende adicionar: ");
+string entradaTamanho = Console.ReadLine();
+int tamanho = Int32.Parse(entradaTamanho);
+Console.WriteLine("Digite os valores que deseja adicionar: ");
+int contador = 0;
+List<int> valores = new List<int> { };
+while (contador <= tamanho)
+{
+  string entradaValores = Console.ReadLine();
+  int valor = Int32.Parse(entradaValores);
+  valores.Add(valor);
+  contador += 1;
+}
+Console.WriteLine("[{0}]", string.Join(", ", valores));
 
 
 
