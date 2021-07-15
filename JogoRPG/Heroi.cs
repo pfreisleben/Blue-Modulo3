@@ -39,8 +39,9 @@ namespace JogoRPG
     {
       Console.WriteLine($"Herói {_nome} criado com sucesso!");
       Console.WriteLine($"Experiência: {_experiencia}.");
-
-
+      Console.WriteLine($"Nivel: {_nivel}.");
+      Console.WriteLine($"Vida: {_vida}.");
+      Console.WriteLine($"Ataque base: {_ataqueBase}.");
     }
 
 
