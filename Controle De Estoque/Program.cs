@@ -6,6 +6,7 @@ namespace ControleDeEstoque
   {
     static void Main(string[] args)
     {
+      System.Console.WriteLine("Bem vindo ao shopping da Blue!");
       BlueShop blueShop = new BlueShop();
       blueShop.Iniciar();
       //var a = 1;
