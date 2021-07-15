@@ -6,13 +6,13 @@ namespace JogoRPG
   public class Heroi
   {
 
-    public Heroi(string nome, int experiencia, int nivel, int vida)
-    {
-      
+    public string Nome;
+    private int _experiencia = 0;
+    private int _nivel = 1;
+    private int _vida = 10;
+    private int AtaqueBase;
 
-    }
 
-    
 
   }
 }

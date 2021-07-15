@@ -112,7 +112,7 @@ Console.WriteLine("[{0}]", string.Join(", ", valores));
 //int quant = Convert.ToInt32(Console.ReadLine());
 //int[] values = new int[quant]; // CRIAR UM ARRAY VAZIO DE TAMANHO FIXO!
 
-//Random aleatorio = new Random(); // INSTANCIANDO OBJETO DO TIPO Random
+Random aleatorio = new Random(); // INSTANCIANDO OBJETO DO TIPO Random
 
 //for (int i = 0; i < quant; i++)
 //{
